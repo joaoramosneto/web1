@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Funcionários</title>
+    <link rel="stylesheet" href="C:\web1\fe-react-web1-gestao-main\front-web1-api-mysql-main\css\department.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <img src="C:\web1\fe-react-web1-gestao-main\front-web1-api-mysql-main\pages\employee\logo.png" class="logo">
+      <h2>Cadastro de Departamento</h2>
+      <form id="departmentForm">
+        <div class="input-block">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+
+        <div class="input-block">
+          <label for="description">Descrição</label>
+          <input type="text" id="description" name="description" required />
+        </div>
+
+       
+
+        <button type="submit">Salvar</button>
+      </form>
+    </div>
+    <div id="departmentCards"></div>
+
+    <script src="C:\web1\fe-react-web1-gestao-main\front-web1-api-mysql-main\scripts\department.js"></script>
+  </body>
+</html>
